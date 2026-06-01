@@ -1,0 +1,160 @@
+[
+    {
+        "id": "deck_nextjs_01",
+        "courseId": "c_nextjs_101",
+        "title": "Thuật ngữ Next.js cốt lõi",
+        "description": "Thẻ ghi nhớ giúp phản xạ nhanh các khái niệm trước khi đi phỏng vấn.",
+        "cards": [
+            {
+                "cardId": "card_01",
+                "front": "Hydration là gì?",
+                "back": "Quá trình React gắn Event Listener vào HTML được render từ Server.",
+                "example": "HTML đã xuất hiện nhưng chưa click được cho tới khi Hydration hoàn tất."
+            },
+            {
+                "cardId": "card_02",
+                "front": "SEO là gì?",
+                "back": "Search Engine Optimization - Tối ưu công cụ tìm kiếm.",
+                "example": "SSR thường tốt cho SEO hơn CSR."
+            },
+            {
+                "cardId": "card_03",
+                "front": "SSR là gì?",
+                "back": "Server Side Rendering - Render HTML trên server mỗi request.",
+                "example": "Trang chi tiết sản phẩm lấy dữ liệu mới nhất mỗi lần truy cập."
+            },
+            {
+                "cardId": "card_04",
+                "front": "SSG là gì?",
+                "back": "Static Site Generation - Sinh HTML tại thời điểm build.",
+                "example": "Trang giới thiệu công ty ít thay đổi."
+            },
+            {
+                "cardId": "card_05",
+                "front": "ISR là gì?",
+                "back": "Incremental Static Regeneration - Cho phép cập nhật lại trang static theo chu kỳ.",
+                "example": "Trang blog tự rebuild sau mỗi 60 giây."
+            },
+            {
+                "cardId": "card_06",
+                "front": "CSR là gì?",
+                "back": "Client Side Rendering - Render giao diện trong trình duyệt.",
+                "example": "SPA React truyền thống."
+            },
+            {
+                "cardId": "card_07",
+                "front": "App Router là gì?",
+                "back": "Hệ thống routing mới của Next.js dựa trên thư mục app.",
+                "example": "app/dashboard/page.tsx"
+            },
+            {
+                "cardId": "card_08",
+                "front": "Server Component là gì?",
+                "back": "Component render trên server và không gửi JS xuống client.",
+                "example": "Component chỉ fetch dữ liệu."
+            },
+            {
+                "cardId": "card_09",
+                "front": "Client Component là gì?",
+                "back": "Component chạy trên browser và hỗ trợ state, effect.",
+                "example": "Component dùng useState."
+            },
+            {
+                "cardId": "card_10",
+                "front": "use client dùng để làm gì?",
+                "back": "Đánh dấu component là Client Component.",
+                "example": "Bắt buộc khi dùng useState hoặc useEffect."
+            },
+            {
+                "cardId": "card_11",
+                "front": "Layout là gì?",
+                "back": "Giao diện dùng chung cho nhiều page.",
+                "example": "Sidebar và Header dùng chung."
+            },
+            {
+                "cardId": "card_12",
+                "front": "Dynamic Route là gì?",
+                "back": "Route chứa tham số động.",
+                "example": "app/product/[id]/page.tsx"
+            },
+            {
+                "cardId": "card_13",
+                "front": "useParams() dùng để làm gì?",
+                "back": "Lấy các tham số động từ URL.",
+                "example": "/product/123 => id=123"
+            },
+            {
+                "cardId": "card_14",
+                "front": "useRouter() dùng để làm gì?",
+                "back": "Điều hướng giữa các trang bằng code.",
+                "example": "router.push('/dashboard')"
+            },
+            {
+                "cardId": "card_15",
+                "front": "Link component dùng để làm gì?",
+                "back": "Điều hướng client-side mà không reload trang.",
+                "example": "<Link href='/about'>About</Link>"
+            },
+            {
+                "cardId": "card_16",
+                "front": "Middleware là gì?",
+                "back": "Đoạn code chạy trước khi request tới route.",
+                "example": "Kiểm tra đăng nhập."
+            },
+            {
+                "cardId": "card_17",
+                "front": "API Route là gì?",
+                "back": "Backend endpoint được tạo ngay trong Next.js.",
+                "example": "app/api/users/route.ts"
+            },
+            {
+                "cardId": "card_18",
+                "front": "Route Handler là gì?",
+                "back": "Cách định nghĩa API trong App Router.",
+                "example": "export async function GET() {}"
+            },
+            {
+                "cardId": "card_19",
+                "front": "Metadata API dùng để làm gì?",
+                "back": "Quản lý title, description và SEO.",
+                "example": "export const metadata = {...}"
+            },
+            {
+                "cardId": "card_20",
+                "front": "Image Component có lợi ích gì?",
+                "back": "Tối ưu ảnh tự động.",
+                "example": "Lazy Loading và Responsive Images."
+            },
+            {
+                "cardId": "card_21",
+                "front": "Suspense là gì?",
+                "back": "Hiển thị fallback khi chờ dữ liệu hoặc component tải xong.",
+                "example": "Loading spinner."
+            },
+            {
+                "cardId": "card_22",
+                "front": "Streaming là gì?",
+                "back": "Gửi HTML từng phần thay vì chờ render toàn bộ.",
+                "example": "Người dùng thấy nội dung sớm hơn."
+            },
+            {
+                "cardId": "card_23",
+                "front": "Server Action là gì?",
+                "back": "Hàm chạy trên server có thể gọi trực tiếp từ form hoặc component.",
+                "example": "Tạo user mà không cần API Route."
+            },
+            {
+                "cardId": "card_24",
+                "front": "fetch trong Server Component có lợi ích gì?",
+                "back": "Tự động cache và chạy trên server.",
+                "example": "Không lộ API Key."
+            },
+            {
+                "cardId": "card_25",
+                "front": "next.config.js dùng để làm gì?",
+                "back": "Cấu hình toàn bộ ứng dụng Next.js.",
+                "example": "Image Domain, Redirect, Rewrite."
+            }
+        ]
+    }
+]

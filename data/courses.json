@@ -1,0 +1,197 @@
+[
+  {
+    "id": "c_nextjs_101",
+    "title": "Next.js App Router Masterclass",
+    "slug": "nextjs-app-router-masterclass",
+    "description": "Làm chủ Next.js App Router từ cơ bản đến nâng cao cùng dự án thực chiến.",
+    "thumbnailURL": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=500",
+    "instructorName": "Sơn Đặng EduPulse",
+    "level": "beginner",
+    "status": "published",
+    "chapters": [
+      {
+        "chapterId": "chap_1",
+        "order": 1,
+        "title": "Chương 1: Kiến trúc App Router Cơ bản",
+        "lessons": [
+          {
+            "lessonId": "les_1_1",
+            "order": 1,
+            "title": "Bài 1.1: Phân biệt Server & Client Component",
+            "type": "video",
+            "content": "Trong bài học này, chúng ta sẽ tìm hiểu cơ chế hoạt động, ưu nhược điểm và cách phối hợp giữa hai loại Component cốt lõi của Next.js.",
+            "videoURL": "https://www.youtube.com/embed/Rgw_0B8-vsc",
+            "duration": 45
+          },
+          {
+            "lessonId": "les_1_2",
+            "order": 2,
+            "title": "Bài 1.2: Thực hành trắc nghiệm kiến thức Routing",
+            "type": "quiz",
+            "quizId": "quiz_routing_01",
+            "duration": 15
+          }
+        ]
+      },
+      {
+        "chapterId": "chap_2",
+        "order": 2,
+        "title": "Chương 2: Tối ưu ứng dụng & Thuật ngữ",
+        "lessons": [
+          {
+            "lessonId": "les_2_1",
+            "order": 1,
+            "title": "Bài 2.1: Ôn tập thuật ngữ Next.js nâng cao",
+            "type": "flashcard",
+            "deckId": "deck_nextjs_01",
+            "duration": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c_react_hooks",
+    "title": "React Hooks Toàn Tập: Từ Zero đến Hero",
+    "slug": "react-hooks-toan-tap",
+    "description": "Hiểu sâu cơ chế ngầm của useState, useEffect, useMemo, useCallback và tự viết Custom Hooks xịn.",
+    "thumbnailURL": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=500",
+    "instructorName": "Trần Văn Code EduPulse",
+    "level": "intermediate",
+    "status": "published",
+    "chapters": [
+      {
+        "chapterId": "react_chap_1",
+        "order": 1,
+        "title": "Chương 1: Quản lý Trạng thái và Hiệu ứng",
+        "lessons": [
+          {
+            "lessonId": "les_react_1_1",
+            "order": 1,
+            "title": "Bài 1.1: Tránh bẫy Vòng lặp vô hạn với useEffect",
+            "type": "video",
+            "content": "Học cách kiểm soát mảng Dependency trong useEffect để không làm ứng dụng bị crash do re-render vô hạn.",
+            "videoURL": "https://www.youtube.com/embed/j1ZRyw7OtBo",
+            "duration": 50
+          },
+          {
+            "lessonId": "les_react_1_2",
+            "order": 2,
+            "title": "Bài 1.2: Bài tập tư duy Re-render của React",
+            "type": "quiz",
+            "quizId": "quiz_react_render",
+            "duration": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c_typescript_pro",
+    "title": "TypeScript Thực Chiến cho Lập Trình Viên Web",
+    "slug": "typescript-thuc-chien-pro",
+    "description": "Xóa mù chữ Type, làm chủ Generics, Utility Types và cấu hình Strict Mode chuẩn dự án lớn.",
+    "thumbnailURL": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?q=80&w=500",
+    "instructorName": "Alex Hoàng EduPulse",
+    "level": "advanced",
+    "status": "published",
+    "chapters": [
+      {
+        "chapterId": "ts_chap_1",
+        "order": 1,
+        "title": "Chương 1: Hệ thống Kiểu Dữ liệu Nâng cao",
+        "lessons": [
+          {
+            "lessonId": "les_ts_1_1",
+            "order": 1,
+            "title": "Bài 1.1: Sức mạnh của Generics trong Component Reusable",
+            "type": "video",
+            "content": "Học cách viết các hàm và Component nhận tham số kiểu dữ liệu động, giúp code tái sử dụng cực cao mà vẫn giữ an toàn Type.",
+            "videoURL": "https://www.youtube.com/embed/nVi5cIMKp-I",
+            "duration": 60
+          },
+          {
+            "lessonId": "les_ts_1_2",
+            "order": 2,
+            "title": "Bài 1.2: Flashcard phản xạ nhanh các Utility Types",
+            "type": "flashcard",
+            "deckId": "deck_ts_utilities",
+            "duration": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c_tailwind_ui",
+    "title": "Làm Chủ Tailwind CSS & Kỹ Năng Thiết Kế Giao Diện",
+    "slug": "lam-chu-tailwind-css-ui",
+    "description": "Xây dựng hệ thống Design System chuyên nghiệp, cấu hình Custom Theme và thiết kế Responsive mượt mà.",
+    "thumbnailURL": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=500",
+    "instructorName": "Hoàng Tailwind EduPulse",
+    "level": "beginner",
+    "status": "published",
+    "chapters": [
+      {
+        "chapterId": "tw_chap_1",
+        "order": 1,
+        "title": "Chương 1: Tư duy Utility-First và Grid Hệ Thống",
+        "lessons": [
+          {
+            "lessonId": "les_tw_1_1",
+            "order": 1,
+            "title": "Bài 1.1: Bố cục nâng cao với Flexbox & Grid Layout",
+            "type": "video",
+            "content": "Làm chủ tư duy chia lưới giao diện phức tạp bằng cách kết hợp nhuần nhuyễn Grid và Flexbox trong Tailwind.",
+            "videoURL": "https://www.youtube.com/embed/tw-layout-demo",
+            "duration": 35
+          },
+          {
+            "lessonId": "les_tw_1_2",
+            "order": 2,
+            "title": "Bài 1.2: Thực hành phối màu Semantic Tokens",
+            "type": "flashcard",
+            "deckId": "deck_tw_colors",
+            "duration": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c_fullstack_next_nest",
+    "title": "Xây Dựng Hệ Thống E-Learning Fullstack với Next.js & NestJS",
+    "slug": "fullstack-nextjs-nestjs-elearning",
+    "description": "Khóa học tối thượng kết hợp Next.js App Router (Frontend) và NestJS + PostgreSQL (Backend). Tích hợp Stripe thanh toán và Realtime chat.",
+    "thumbnailURL": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=500",
+    "instructorName": "Minh Nguyễn Fullstack EduPulse",
+    "level": "advanced",
+    "status": "published",
+    "chapters": [
+      {
+        "chapterId": "fs_chap_1",
+        "order": 1,
+        "title": "Chương 1: Thiết kế Cơ sở Dữ liệu & Kiến trúc NestJS",
+        "lessons": [
+          {
+            "lessonId": "les_fs_1_1",
+            "order": 1,
+            "title": "Bài 1.1: Phân tích Database Schema chuyên sâu",
+            "type": "video",
+            "content": "Thiết kế thực thể quan hệ giữa User, Course, Chapter, Lesson trên PostgreSQL sử dụng Prisma ORM.",
+            "videoURL": "https://www.youtube.com/watch?v=-BBm4CxABps",
+            "duration": 80
+          },
+          {
+            "lessonId": "les_fs_1_2",
+            "order": 2,
+            "title": "Bài 1.2: Quiz kiểm tra kiến thức RESTful API chuẩn NestJS",
+            "type": "quiz",
+            "quizId": "quiz_nestjs_architecture",
+            "duration": 30
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "quiz_routing_01",
+    "courseId": "c_nextjs_101",
+    "title": "Trắc nghiệm kiến thức Routing trong Next.js",
+    "timeLimit": 600,
+    "passingScore": 80,
+    "questions": [
+      {
+        "questionId": "ques_1",
+        "order": 1,
+        "questionText": "Thành phần nào sau đây mặc định là Server Component trong Next.js App Router?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "opt_a",
+            "text": "Mọi file trong thư mục app/ không chứa chỉ thị 'use client'"
+          },
+          {
+            "optionId": "opt_b",
+            "text": "Chỉ những file có tên là page.tsx"
+          },
+          {
+            "optionId": "opt_c",
+            "text": "Tất cả các component sử dụng useState"
+          }
+        ],
+        "correctAnswer": [
+          "opt_a"
+        ],
+        "explanation": "Các component trong App Router mặc định là Server Component."
+      },
+      {
+        "questionId": "ques_2",
+        "order": 2,
+        "questionText": "File nào dùng để định nghĩa giao diện cho một route trong App Router?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "opt_a",
+            "text": "layout.tsx"
+          },
+          {
+            "optionId": "opt_b",
+            "text": "page.tsx"
+          },
+          {
+            "optionId": "opt_c",
+            "text": "route.ts"
+          }
+        ],
+        "correctAnswer": [
+          "opt_b"
+        ],
+        "explanation": "page.tsx đại diện cho UI chính của route."
+      },
+      {
+        "questionId": "ques_3",
+        "order": 3,
+        "questionText": "Chỉ thị nào được sử dụng để biến một component thành Client Component?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "opt_a",
+            "text": "'use client'"
+          },
+          {
+            "optionId": "opt_b",
+            "text": "'client component'"
+          },
+          {
+            "optionId": "opt_c",
+            "text": "'use browser'"
+          }
+        ],
+        "correctAnswer": [
+          "opt_a"
+        ],
+        "explanation": "Chỉ thị 'use client' phải nằm ở đầu file."
+      },
+      {
+        "questionId": "ques_4",
+        "order": 4,
+        "questionText": "Route động trong Next.js được tạo bằng cách nào?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "opt_a",
+            "text": "Tạo thư mục [id]"
+          },
+          {
+            "optionId": "opt_b",
+            "text": "Tạo file id.tsx"
+          },
+          {
+            "optionId": "opt_c",
+            "text": "Tạo file dynamic.tsx"
+          }
+        ],
+        "correctAnswer": [
+          "opt_a"
+        ],
+        "explanation": "Dynamic Route được định nghĩa bằng dấu ngoặc vuông."
+      },
+      {
+        "questionId": "ques_5",
+        "order": 5,
+        "questionText": "Hook nào được sử dụng để lấy giá trị params trong App Router?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "opt_a",
+            "text": "useParams()"
+          },
+          {
+            "optionId": "opt_b",
+            "text": "useRoute()"
+          },
+          {
+            "optionId": "opt_c",
+            "text": "useRouterParams()"
+          }
+        ],
+        "correctAnswer": [
+          "opt_a"
+        ],
+        "explanation": "useParams() giúp lấy dynamic params."
+      }
+    ]
+  },
+  {
+    "id": "quiz_react_render",
+    "courseId": "c_react_hooks",
+    "title": "Kiểm tra Tư duy Re-render trong React",
+    "timeLimit": 300,
+    "passingScore": 100,
+    "questions": [
+      {
+        "questionId": "react_q1",
+        "order": 1,
+        "questionText": "Khi cập nhật state thông qua hàm setState, React sẽ làm gì?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "r_opt_a",
+            "text": "Cập nhật trực tiếp biến state cũ ngay lập tức"
+          },
+          {
+            "optionId": "r_opt_b",
+            "text": "Lên lịch một lần re-render mới"
+          },
+          {
+            "optionId": "r_opt_c",
+            "text": "Reload toàn bộ trang web"
+          }
+        ],
+        "correctAnswer": [
+          "r_opt_b"
+        ],
+        "explanation": "React schedule một lần render mới."
+      },
+      {
+        "questionId": "react_q2",
+        "order": 2,
+        "questionText": "Điều gì sẽ khiến component React re-render?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "r_opt_a",
+            "text": "State thay đổi"
+          },
+          {
+            "optionId": "r_opt_b",
+            "text": "Props thay đổi"
+          },
+          {
+            "optionId": "r_opt_c",
+            "text": "Cả A và B"
+          }
+        ],
+        "correctAnswer": [
+          "r_opt_c"
+        ],
+        "explanation": "State hoặc props thay đổi đều có thể trigger re-render."
+      },
+      {
+        "questionId": "react_q3",
+        "order": 3,
+        "questionText": "Hook nào dùng để lưu state trong Function Component?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "r_opt_a",
+            "text": "useEffect"
+          },
+          {
+            "optionId": "r_opt_b",
+            "text": "useState"
+          },
+          {
+            "optionId": "r_opt_c",
+            "text": "useMemo"
+          }
+        ],
+        "correctAnswer": [
+          "r_opt_b"
+        ],
+        "explanation": "useState là hook quản lý state."
+      },
+      {
+        "questionId": "react_q4",
+        "order": 4,
+        "questionText": "Hook useEffect chạy khi nào nếu dependency array rỗng []?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "r_opt_a",
+            "text": "Sau mỗi lần render"
+          },
+          {
+            "optionId": "r_opt_b",
+            "text": "Chỉ một lần sau lần render đầu tiên"
+          },
+          {
+            "optionId": "r_opt_c",
+            "text": "Không bao giờ chạy"
+          }
+        ],
+        "correctAnswer": [
+          "r_opt_b"
+        ],
+        "explanation": "[] tương đương componentDidMount."
+      },
+      {
+        "questionId": "react_q5",
+        "order": 5,
+        "questionText": "Hook nào dùng để tối ưu việc tính toán giá trị đắt đỏ?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "r_opt_a",
+            "text": "useMemo"
+          },
+          {
+            "optionId": "r_opt_b",
+            "text": "useRef"
+          },
+          {
+            "optionId": "r_opt_c",
+            "text": "useEffect"
+          }
+        ],
+        "correctAnswer": [
+          "r_opt_a"
+        ],
+        "explanation": "useMemo ghi nhớ giá trị đã tính toán."
+      }
+    ]
+  },
+  {
+    "id": "quiz_nestjs_architecture",
+    "courseId": "c_fullstack_next_nest",
+    "title": "Đánh giá Kiến trúc và Tổ chức mã nguồn NestJS",
+    "timeLimit": 900,
+    "passingScore": 80,
+    "questions": [
+      {
+        "questionId": "nest_q1",
+        "order": 1,
+        "questionText": "Trong NestJS, thành phần nào chịu trách nhiệm xử lý request và response?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "n_opt_a",
+            "text": "Service"
+          },
+          {
+            "optionId": "n_opt_b",
+            "text": "Controller"
+          },
+          {
+            "optionId": "n_opt_c",
+            "text": "Module"
+          }
+        ],
+        "correctAnswer": [
+          "n_opt_b"
+        ],
+        "explanation": "Controller nhận request từ client."
+      },
+      {
+        "questionId": "nest_q2",
+        "order": 2,
+        "questionText": "Service trong NestJS thường dùng để làm gì?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "n_opt_a",
+            "text": "Chứa business logic"
+          },
+          {
+            "optionId": "n_opt_b",
+            "text": "Định nghĩa route"
+          },
+          {
+            "optionId": "n_opt_c",
+            "text": "Khởi tạo server"
+          }
+        ],
+        "correctAnswer": [
+          "n_opt_a"
+        ],
+        "explanation": "Business logic nên nằm trong service."
+      },
+      {
+        "questionId": "nest_q3",
+        "order": 3,
+        "questionText": "Decorator nào dùng để đánh dấu một class là Controller?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "n_opt_a",
+            "text": "@Injectable()"
+          },
+          {
+            "optionId": "n_opt_b",
+            "text": "@Controller()"
+          },
+          {
+            "optionId": "n_opt_c",
+            "text": "@Module()"
+          }
+        ],
+        "correctAnswer": [
+          "n_opt_b"
+        ],
+        "explanation": "@Controller() định nghĩa controller."
+      },
+      {
+        "questionId": "nest_q4",
+        "order": 4,
+        "questionText": "Decorator nào dùng để đánh dấu một Service có thể được inject?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "n_opt_a",
+            "text": "@Injectable()"
+          },
+          {
+            "optionId": "n_opt_b",
+            "text": "@Service()"
+          },
+          {
+            "optionId": "n_opt_c",
+            "text": "@Provider()"
+          }
+        ],
+        "correctAnswer": [
+          "n_opt_a"
+        ],
+        "explanation": "@Injectable() cho phép Dependency Injection."
+      },
+      {
+        "questionId": "nest_q5",
+        "order": 5,
+        "questionText": "Module trong NestJS có nhiệm vụ gì?",
+        "questionType": "single_choice",
+        "options": [
+          {
+            "optionId": "n_opt_a",
+            "text": "Nhóm các controller và provider liên quan"
+          },
+          {
+            "optionId": "n_opt_b",
+            "text": "Render giao diện"
+          },
+          {
+            "optionId": "n_opt_c",
+            "text": "Kết nối database"
+          }
+        ],
+        "correctAnswer": [
+          "n_opt_a"
+        ],
+        "explanation": "Module là đơn vị tổ chức chính trong NestJS."
+      }
+    ]
+  }
+]
